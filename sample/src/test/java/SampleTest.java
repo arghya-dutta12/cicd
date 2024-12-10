@@ -1,12 +1,13 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.cicd.sample.ClassA;
 import org.junit.jupiter.api.Test;
 
 class SampleTest {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		assertEquals("hello", ClassA.sayHello());
 	}
 
 }
